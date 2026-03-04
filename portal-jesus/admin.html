@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel Admin</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Nova Notícia</h2>
+
+  <input type="text" id="titulo" placeholder="Título">
+  <input type="text" id="imagem" placeholder="URL da imagem">
+  <textarea id="conteudo" placeholder="Conteúdo"></textarea>
+  <button onclick="salvarNoticia()">Publicar</button>
+
+  <br><br>
+  <button onclick="logout()">Sair</button>
+</div>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>
